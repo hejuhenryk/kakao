@@ -8,6 +8,7 @@
 </script>
 
 <p class="text-3xl mb-10">https://prod.liveshare.vsengsaas.visualstudio.com/join?58934199566A8ABA78BDBBE9001E2B5CC9F6</p>
+<p class="text-3xl mb-10">https://d7d3-195-1-85-189.ngrok-free.app</p>
 
 <main class="grid grid-cols-2">
     <div class="grid grid-cols-2 gap-2 border border-3 border-fuchsia-500">
