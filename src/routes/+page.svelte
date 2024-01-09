@@ -7,8 +7,7 @@
     import image1 from '../page1.png';
 </script>
 
-<p class="text-3xl mb-10">https://prod.liveshare.vsengsaas.visualstudio.com/join?2C328A8A02108EAE94F6D433D6F1D5A51F76</p>
-<p class="text-3xl mb-10">https://d7d3-195-1-85-189.ngrok-free.app</p>
+<p class="text-3xl mb-10">https://prod.liveshare.vsengsaas.visualstudio.com/join?E0F2B112EE3A673DB850384E5C0AAEB7BEAA</p>
 
 <main class="grid grid-cols-2">
     <a href="/Team1" class="grid grid-cols-2 gap-2 border border-3 border-fuchsia-500">
@@ -34,5 +33,4 @@
         <Team5 />
         <img src={image1} alt="" />
 
-    </a>
 </main>
