@@ -3,7 +3,15 @@
 </script>
 
 <section>
-    <h1>Team 3</h1>
-    <p>Team 3 is the third best team!</p>
+    <h1>Google</h1>
+    <div></div>
     
 </section>
+
+<style>
+    div {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        border: 2px solid black;    }
+</style>

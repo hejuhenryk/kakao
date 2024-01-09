@@ -11,28 +11,28 @@
 <p class="text-3xl mb-10">https://d7d3-195-1-85-189.ngrok-free.app</p>
 
 <main class="grid grid-cols-2">
-    <div class="grid grid-cols-2 gap-2 border border-3 border-fuchsia-500">
+    <a href="/Team1" class="grid grid-cols-2 gap-2 border border-3 border-fuchsia-500">
         <Team1 />
         <img src={image1} alt="" />
-    </div>
-    <div class="grid grid-cols-2 gap-2 border border-3 border-fuchsia-500">
+    </a>
+    <a href="/Team2" class="grid grid-cols-2 gap-2 border border-3 border-fuchsia-500">
         <Team2 />
         <img src={image1} alt="" />
         
-    </div>
-    <div class="grid grid-cols-2 gap-2 border border-3 border-fuchsia-500">
+    </a>
+    <a href="/Team3" class="grid grid-cols-2 gap-2 border border-3 border-fuchsia-500">
         <Team3 />
         <img src={image1} alt="" />
         
-    </div>
-    <div class="grid grid-cols-2 gap-2 border border-3 border-fuchsia-500">
+    </a>
+    <a href="/Team4" class="grid grid-cols-2 gap-2 border border-3 border-fuchsia-500">
         <Team4 />
         <img src={image1} alt="" />
         
-    </div>
-    <div class="grid grid-cols-2 gap-2 border border-3 border-fuchsia-500">
+    </a>
+    <a href="/Team5" class="grid grid-cols-2 gap-2 border border-3 border-fuchsia-500">
         <Team5 />
         <img src={image1} alt="" />
 
-    </div>
+    </a>
 </main>
