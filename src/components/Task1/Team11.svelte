@@ -5,16 +5,45 @@
 
 <section>
     <!-- change html inside section -->
-    <h1>Team 11</h1>
-    <!-- You can use tailwind -->
-    <p class="text-red-500">Example <span class="font-bold">text</span></p>
-    <img src={bilde1} alt="" />
+    <div>
+        <span>
+            <span>THREADS</span>
+            <span>INSTAGRAM</span>
+            <span>LINKEDIN</span>
+        </span>
+        <span>
+            ERIK@
+        </span>
+        <span>
+            <span>WORKS</span>
+            <span>ABOUT</span>
+            <span>CONTACT</span>
+        </span>
+    </div>
+    <h1 style="font-family:sans-serif;font-size:110px">
+        CREATIVE <br/>DEVELOPER<br/> PORTFOLIO
+    </h1>
+    <p>
+        I PASSIONATELY CRAFT CAPTIVATING VISUAL, BLENDING<br/>
+         ART AND TECH, FOR DIVERSE CLIENTS, PRIORITIZING<br/> 
+         ORGINALITY WITH PRECISION AND FLAIR
+    </p>
+        
+        <button style="background-color:#ffffff">hello@ERIKLINDSTROM.com</button>
+
+        <div><span>SELECTED WORK</span>
+            <span>(2021-PRESENT)</span>
+        </div>
+
+        <img src="./bilde1.png"/>
+
+
 </section>
 
 <style>
     /** Input custom css here */
     section {
         color: black;
-        background-color: white;
+        background-color: gray;
     }
 </style>

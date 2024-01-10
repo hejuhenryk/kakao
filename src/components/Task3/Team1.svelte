@@ -1,20 +1,12 @@
 <script lang="ts">
     // import statements here
-    import bilde1 from "./bilde1.png";
+    import task from "../../page3.png";
 </script>
 
-<section>
-    <!-- change html inside section -->
-    <h1>Team 1</h1>
-    <!-- You can use tailwind -->
-    <p class="text-red-500">Example <span class="font-bold">text</span></p>
-    <img src={bilde1} alt="" />
-</section>
+<div class="relative">
+    <p>{`Team 1: ¯\_(ツ)_/¯`}</p>
+    <img src={task} alt=""/>
+</div>
 
 <style>
-    /** Input custom css here */
-    section {
-        color: black;
-        background-color: white;
-    }
 </style>

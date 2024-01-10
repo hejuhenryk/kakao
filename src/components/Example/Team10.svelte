@@ -4,11 +4,48 @@
 </script>
 
 <section>
-    <!-- change html inside section -->
-    <h1>Team 10</h1>
-    <!-- You can use tailwind -->
-    <p class="text-red-500">Example <span class="font-bold">text</span></p>
-    <img src={bilde1} alt="" />
+   <nav class="navbar">
+        <div>
+            <div class="navlink">
+                Threads
+            </div>
+            <div class="navlink">
+                Threads
+            </div>
+            <div class="navlink">
+                Threads
+            </div>
+        </div>
+        <div class="author">
+            EIRIK©
+        </div>
+        <div>
+            <div class="navlink">
+                Works
+            </div>
+            <div class="navlink">
+                About
+            </div>
+            <div class="navlink">
+                Contact
+            </div>
+        </div>
+    </nav>
+    <body>
+        <section>
+            <h1>CREATIVE DEVELOPER PORTFOLIO</h1>
+            <p>I PASSIONATELY CRAFT CAPTIVATING VISUAL, BLENDING ART AND TECH, FOR DIVERSE CLIENTS, PRIORITISING ORIGINALITY WITH PRECISION AND FLAIR.</p>
+            <div class="email">HELLO@ERIKLINDSTROM.COM</div>
+        </section>
+        <section>
+            <div class="image-header">
+                <div></div>
+                <div></div>
+            </div>
+        </section>
+    </body>
+
+
 </section>
 
 <style>
