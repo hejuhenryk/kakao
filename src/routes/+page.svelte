@@ -1,44 +1,56 @@
 <script>
-	import Team1 from "../components/Team1.svelte";
-	import Team2 from "../components/Team2.svelte";
-	import Team3 from "../components/Team3.svelte";
-	import Team4 from "../components/Team4.svelte";
-	import Team5 from "../components/Team5.svelte";
-	import Team6 from "../components/Team6.svelte";
-	import Team7 from "../components/Team7.svelte";
-	import Team8 from "../components/Team8.svelte";
-    import image1 from '../page1.png';
+	import { fade, fly } from 'svelte/transition'
+
+    import slide1 from "../slides/slide1.png";
+    import slide2 from "../slides/slide2.png";
+    import slide3 from "../slides/slide3.png";
+    import slide4 from "../slides/slide4.png";
+    import slide5 from "../slides/slide5.png";
+    import slide6 from "../slides/slide6.png";
+	
+	const carouselPhotos = [
+		slide1,
+        slide2,
+        slide4,
+        slide3,
+        slide5,
+        slide6
+	]
+	
+	let index = 0
+	
+	const next = () => {
+		index = (index + 1) % carouselPhotos.length
+	}
+    const preview = () => {
+		index = (index - 1) % carouselPhotos.length 
+	}
 </script>
 
-<main class="grid grid-cols-4">
-    <p class="text-3xl mb-10">https://prod.liveshare.vsengsaas.visualstudio.com/join?E0F2B112EE3A673DB850384E5C0AAEB7BEAA</p>
-    http://tinyurl.com/
-    <a href="/task1">TASK 1</a>
-    <a href="/task2">TASK 2</a>
-    <a href="/task3">TASK 3</a>
-    <!-- <img src={image1} alt="" />
-    <a href="/Team1" class="grid grid-cols-1 border border-3 border-fuchsia-500">
-        <Team1 />
-    </a>
-    <a  href="/Team2" class="grid grid-cols-1 border border-3 border-fuchsia-500">
-        <Team2 />
-    </a>
-    <a  href="/Team3" class="grid grid-cols-1 border border-3 border-fuchsia-500">
-        <Team3 />
-    </a>
-    <a  href="/Team4" class="grid grid-cols-1 border border-3 border-fuchsia-500">
-        <Team4 />
-    </a>
-    <a  href="/Team5" class="grid grid-cols-1 border border-3 border-fuchsia-500">
-        <Team5 />
-    </a>
-    <a  href="/Team6" class="grid grid-cols-1 border border-3 border-fuchsia-500">
-        <Team6 />
-    </a>
-    <a  href="/Team7" class="grid grid-cols-1 border border-3 border-fuchsia-500">
-        <Team7 />
-    </a>
-    <a  href="/Team8" class="grid grid-cols-1 border border-3 border-fuchsia-500">
-        <Team8 />
-    </a> -->
-</main>
+
+<section class="grid gap-3 w-3/4 mx-auto my-10">
+    <div class="h-[80vh] flex justify-center">
+        {#each [carouselPhotos[index]] as src (index)}
+            <img in:fly={{ x: '-100%', delay: 100, duration: 300 }} {src} alt=""  class="h-full" />	
+        {/each}
+    </div>
+    <nav  class="flex justify-between mx-20">
+        <button disabled={ index === 0} on:click={preview}>Preview</button>
+        <div class="flex gap-3">
+            {#each carouselPhotos as _, i}
+                <button class="{index === i ? "font-bold" : "opacity-90"} px-5 py-2 " on:click={() => index = i}>{i + 1}</button>
+            {/each}
+        </div>
+        <button disabled={ index === (carouselPhotos.length -1)} on:click={next}>Next</button>
+    </nav>
+</section>
+
+<style>
+    button:disabled {
+        opacity: 0;
+    }   
+    img {
+        object-fit: contain;
+    }
+</style>
+

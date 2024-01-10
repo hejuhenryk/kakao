@@ -8,6 +8,7 @@
     <h1>Team 1</h1>
     <!-- You can use tailwind -->
     <p class="text-red-500">Example <span class="font-bold">text</span></p>
+    <img src={bilde1} alt="" />
 </section>
 
 <style>
