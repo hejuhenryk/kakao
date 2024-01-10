@@ -78,7 +78,6 @@
 
 <style>
     main > * {
-        max-height: 40rem;
         overflow: scroll;
         aspect-ratio: 5/3;
     }

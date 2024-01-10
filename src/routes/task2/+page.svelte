@@ -76,10 +76,9 @@
     </a>
 </main>
 
-<style>
-    main > * {
-        max-height: 40rem;
-        overflow: hidden;
-        aspect-ratio: 5/3;
-    }
+<style>   
+ main > * {
+    overflow: scroll;
+    aspect-ratio: 5/3;
+}
 </style>
