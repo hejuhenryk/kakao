@@ -1,5 +1,5 @@
 <script>
-	import Team5 from "../../components/Team5.svelte";
+	import Team7 from "../../components/Team7.svelte";
 
 </script>
-<Team5 />
+<Team7 />

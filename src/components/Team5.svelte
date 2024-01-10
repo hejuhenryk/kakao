@@ -4,7 +4,7 @@
 
 <section>
     <h1>Team 5</h1>
-    <p>Team 5 is the second best team!</p>
+    <p>Team 5 is the very best team!</p>
 
     <p>Hello</p>
     
@@ -16,8 +16,12 @@
         margin: 2em;
         padding: 2em;
         border: 1px solid #ccc;
+        background-color: fuchsia;
     }
     p {
-        color: hotpink;
+        color: darkgoldenrod;
+    }
+    h1 {
+        color: pink;
     }
 </style>

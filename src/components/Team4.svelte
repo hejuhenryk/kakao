@@ -1,10 +1,28 @@
 <script lang="ts">
 
 </script>
+<div id="main">
+    <div class="shrek">
+        <section class="mb-4">
+            <p>Specialists in sustainable digital transformation</p>
+        </section>
+    </div>
+</div>
+<style>
+    section {
+        border: 1px solid #ccc;
+        font-size: x-large;
+        text-align: center;
+    }
+    p {
+        color: blueviolet;
+        font-weight: bold;
+    }
+    .shrek{
+        background-color: lightgreen;
 
-<section class="mb-4">
+    }
+    #main{
 
-    <h1>Team 4</h1>
-    <p>Team 4 is doing their best!</p>
-    
-</section>
+    }
+</style>

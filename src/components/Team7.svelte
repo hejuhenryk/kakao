@@ -3,8 +3,8 @@
 </script>
 
 <section>
-    <h1>Team 5</h1>
-    <p>Team 5 is the second best team!</p>
+    <h1>Team 7</h1>
+    <p>Team 7 is tronds team  the second best team!</p>
 
     <p>Hello</p>
     

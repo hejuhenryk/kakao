@@ -3,8 +3,9 @@
 </script>
 
 <section>
-    <h1>Team 5</h1>
-    <p>Team 5 is the second best team!</p>
+    <h1 class="">Wow
+    </h1>
+    <p>Team 8 is the second best team!</p>
 
     <p>Hello</p>
     
@@ -13,11 +14,10 @@
 
 <style>
     section {
-        margin: 2em;
-        padding: 2em;
-        border: 1px solid #ccc;
+        background-color: brown;
     }
     p {
         color: hotpink;
     }
+    
 </style>
