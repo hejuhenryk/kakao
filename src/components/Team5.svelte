@@ -3,7 +3,7 @@
 </script>
 
 <section>
-    <h1>Team 5</h1>
+    <h1>Team 5 </h1>
     <p>Team 5 is the very best team!</p>
 
     <p>Hello</p>

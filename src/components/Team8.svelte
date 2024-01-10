@@ -3,7 +3,7 @@
 </script>
 
 <section>
-    <h1 class="">Wow
+    <h1 class="border-10 border-">Wow
     </h1>
     <p>Team 8 is the second best team!</p>
 
