@@ -15,10 +15,17 @@
     import Team13 from "../../components/Task2/Team13.svelte";
     import Team14 from "../../components/Task2/Team14.svelte";
     import Team15 from "../../components/Task2/Team15.svelte";
+    $: columns = 4;
+    
 </script>
 
-<main class="grid grid-cols-4">
+
+<main class="grid grid-cols-3" style="grid-template-columns: repeat({columns}, minmax(0, 1fr))">
     <div class="relative">
+        <div class="absolute flex gap-4 top-2 left-2">
+            <button class="flex w-6 h-6 justify-center items-center p-0  rounded-full bg-lime-700 text-base/[1rem]" on:click={()=>columns += 1 } >+</button>
+            <button class="flex w-6 h-6 justify-center items-center p-0  rounded-full bg-lime-700 text-base/[1rem]" on:click={()=>columns -= 1 } >-</button>
+        </div>
         <h1 class="text-center text-fuchsia-600 text-2xl font-bold absolute opacity-50 top-3/4 left-1/2 -translate-x-1/2  -translate-y-1/2">Task 2</h1>
         <img src={task} alt="" />
     </div>
