@@ -1,0 +1,84 @@
+{
+  "button": {
+    "padding-x": {
+      "attributes": {
+        "type": "number"
+      },
+      "value": "{space.xs}"
+    },
+    "primary": {
+      "bg": {
+        "attributes": {
+          "category": "color"
+        },
+        "value": "{color.sea.100}"
+      },
+      "text": {
+        "attributes": {
+          "category": "color"
+        },
+        "value": "{color.sea.500}"
+      },
+      "padding-vartical": {
+        "attributes": {
+          "type": "number"
+        },
+        "value": "{space.sm}"
+      },
+      "padding-horisontal": {
+        "attributes": {
+          "type": "number"
+        },
+        "value": "{space.2xs}"
+      }
+    },
+    "secoundary": {
+      "text": {
+        "attributes": {
+          "category": "color"
+        },
+        "value": "{color.fuchsia.500}"
+      },
+      "bg": {
+        "attributes": {
+          "category": "color"
+        },
+        "value": "{color.lobster.500}"
+      },
+      "padding-vartical": {
+        "attributes": {
+          "type": "number"
+        },
+        "value": "{space.sm}"
+      },
+      "padding-horisontal": {
+        "attributes": {
+          "type": "number"
+        },
+        "value": "{space.xs}"
+      }
+    }
+  },
+  "surface": {
+    "primary": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{color.natural.black}"
+    },
+    "secondary": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{color.sea.900}"
+    }
+  },
+  "text": {
+    "primary": {
+      "attributes": {
+        "category": "color"
+      },
+      "value": "{color.natural.black}"
+    }
+  }
+}
